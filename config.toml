@@ -4,6 +4,7 @@ title = "Hugo-HT"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
+disableRSS = true
 # enableGitInfo = true
 
 [outputs]
