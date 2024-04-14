@@ -4,8 +4,7 @@ title = "Yiming's Page"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
-disableRSS = true
-# enableGitInfo = true
+enableGitInfo = true
 
 [outputs]
   home = ["HTML"]
@@ -49,7 +48,7 @@ posts = "/posts/:year/:month/:day/:slug/"
     weight = 3
 
 [params]
-    description = "Peronal website of Your Name"
+    description = "Peronal website"
     homeText = "You just need a Hugo blog from scratch"
     # Please make sure `blogDirNmae` matches the name used in `menu` above:
     blogDirName = "posts"
@@ -100,13 +99,13 @@ posts = "/posts/:year/:month/:day/:slug/"
       en = "Content in"
       cn = "内容存于"
 
-    #[params.lang.subscribe]
-    #  en = "Subscribe"
-    #  cn = "订阅"
+    [params.lang.subscribe]
+      en = "Subscribe"
+      cn = "订阅"
 
-    #[params.lang.license]
-    #  en = "License"
-    #  cn = "版权"
+    [params.lang.license]
+      en = "License"
+      cn = "版权"
 
 [markup]
  defaultMarkdownHandler = "goldmark"
