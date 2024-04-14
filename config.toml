@@ -1,6 +1,6 @@
 baseURL = "https://zhangym2002.github.io/"
 languageCode = "en-us"
-title = "Hugo-HT"
+title = "Yiming's Page"
 theme = "hugo-ht"
 footnotereturnlinkcontents = "↩"
 enableRobotsTXT = true
@@ -60,8 +60,8 @@ posts = "/posts/:year/:month/:day/:slug/"
     favicon = "media/hugo-logo.png"
     # Edit by yourself:
     GithubEdit = "https://github.com/zhangym2002/zhangym2002.github.io/edit/master/content/"
-    copyright = "&copy;"
-    copyrightYear = "2020-2021"
+    # copyright = "&copy;"
+    # copyrightYear = "2020-2021"
     # Edit by yourself:
     GithubRepo = "https://github.com/zhangym2002/zhangym2002.github.io"
     # Edit by yourself:
@@ -100,13 +100,13 @@ posts = "/posts/:year/:month/:day/:slug/"
       en = "Content in"
       cn = "内容存于"
 
-    [params.lang.subscribe]
-      en = "Subscribe"
-      cn = "订阅"
+    #[params.lang.subscribe]
+    #  en = "Subscribe"
+    #  cn = "订阅"
 
-    [params.lang.license]
-      en = "License"
-      cn = "版权"
+    #[params.lang.license]
+    #  en = "License"
+    #  cn = "版权"
 
 [markup]
  defaultMarkdownHandler = "goldmark"
