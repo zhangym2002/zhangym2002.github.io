@@ -28,7 +28,7 @@ posts = "/posts/:year/:month/:day/:slug/"
     weight = 2
 [[menu.cn]]
     name = "English"
-    url = "/"
+    url = "/en/about"
     weight = 3
 [[menu.en]]
     name = "About"
